@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #191e38;
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.circle {
+  transform-style: preserve-3d;
+  transform: perspective(1000px) rotateX(21deg);
+  transition: 0.4s;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.circle span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ff005e;
+  transform-style: preserve-3d;
+  color: white;
+  width: 35px;
+  transform-origin: center;
+  border-bottom: 15px solid white;
+  border-top: 15px solid white;
+  text-shadow: 500px 150px 10px rgba(255, 255, 255, 0.5), 300px 150px 0 rgba(255, 255, 255, 0.5), 150px 600px 0 rgba(255, 255, 255, 0.5), 600px 50px 0 rgba(255, 255, 255, 0.5), 400px 350px 0 rgba(255, 255, 255, 0.5), 200px 500px 0 rgba(255, 255, 255, 0.5), 500px -150px 10px rgba(255, 255, 255, 0.5), 300px -150px 0 rgba(255, 255, 255, 0.5), 150px -600px 0 rgba(255, 255, 255, 0.5), 600px -50px 0 rgba(255, 255, 255, 0.5), 400px -350px 0 rgba(255, 255, 255, 0.5), 200px -500px 0 rgba(255, 255, 255, 0.5);
+  font-size: 3em;
+  transform: rotateY(calc((var(--i)) * 12.4166666667deg)) translateZ(158px);
+}
+.circle span:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  transform: translateZ(-1px);
+  width: 100%;
+  height: 100%;
+  background: #ff005e;
+}
+/*# sourceMappingURL=main.css.map */
