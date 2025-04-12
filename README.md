@@ -18,4 +18,4 @@ A modern and interactive **3D circle** effect built with **HTML**, **SCSS**, and
 - **JavaScript**
 
 ## 📄 License
-MIT License © 2024 Yahia Badr
+MIT License © 2025 Yahia Badr
