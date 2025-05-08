@@ -10,7 +10,7 @@ A modern and interactive **3D circle** effect built with **HTML**, **SCSS**, and
 
 ## 📸 Snapshot
 
-![3D Circle Snapshot](assets/images/css-circle-snapshot.png)
+![3D Circle Snapshot](screenshot.png)
 
 ## 🚀 Tech Stack
 - **HTML**
